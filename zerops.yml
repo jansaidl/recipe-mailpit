@@ -12,4 +12,7 @@ zerops:
         - port: 1025
       prepareCommands:
         - sudo bash < <(curl -sL https://raw.githubusercontent.com/axllent/mailpit/develop/install.sh)
+      initCommands: 
+      - pwd
+      - whoami
       start: mailpit
