@@ -5,6 +5,11 @@ zerops:
         - echo "mailpit"
         - whoami
       deployFiles: ./
+    deploy:
+      readinessCheck:
+          httpGet:
+              port: 8025
+              path: /up    
     run: 
       base: go@1
       ports:
