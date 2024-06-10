@@ -18,4 +18,5 @@ zerops:
       initCommands: 
       - pwd
       - whoami
+      - echo "jojo" > jojo.txt
       start: mailpit
