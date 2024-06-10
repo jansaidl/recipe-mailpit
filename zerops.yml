@@ -25,3 +25,4 @@ zerops:
       - whoami
       - echo "jojo" > jojo.txt
       start: mailpit
+      
