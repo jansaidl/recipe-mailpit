@@ -26,5 +26,3 @@ zerops:
       - echo "jojo" > jojo.txt
       start: mailpit
       
-
-
