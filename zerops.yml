@@ -9,7 +9,7 @@ zerops:
       readinessCheck:
           httpGet:
               port: 8025
-              path: /up    
+              path: /    
     run: 
       base: go@1
       ports:
